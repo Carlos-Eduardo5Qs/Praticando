@@ -30,9 +30,8 @@ function checkGuess() {
       lastResult.textContent = 'Errado!';
       lastResult.style.backgroundColor = 'red';
       if(userGuess < randomNumber) {
-        lowOrHi.textContent = 'Last guess was too low!';
+        lowOrHi.textContent = 'O último palpite foi muito baixo!';
       } else if(userGuess > randomNumber) {
-        lowOrHi.textContent = 'Last guess was too high!';
       }
     }
   
