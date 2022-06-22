@@ -1,6 +1,6 @@
 let number = Number(prompt('Digite um número:'));
 const numberTitle = document.getElementById('number-title');
-const textBody = document.getElementById('div-text');
+const textBody = document.getElementById('text-number');
 
 numberTitle.innerHTML = number;
 
@@ -11,5 +11,4 @@ textBody.innerHTML += (`<p>O número ${number} é inteiro ? ${Number.isInteger(n
 textBody.innerHTML += (`<p>Arredondado para baixo: ${Math.floor(number)}</p>`);
 textBody.innerHTML += (`<p>Arredondado para cima: ${Math.ceil(number)}</p>`);
 textBody.innerHTML += (`<p>Com duas casa decimais: ${number.toFixed(2)}</p>`);
-
 
