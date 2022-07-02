@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-family: 'Heebo', sans-serif;
+    font-size: 1.8rem;
+    overflow-y: hidden;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: rgb(19, 192, 240);
+}
+
+h1{
+    font-size: 2.5rem;
+}
+
+section{
+    max-width: 500px;
+    min-height: 90vh;
+    padding: 1rem;
+    margin: 0.2% auto;
+    border-radius: 5px;
+    background-color: #ffff;
+}
+
+section h1{
+    font-size: 3rem;
+    padding-bottom: 1rem;
+}
+
+.header-table{
+    display: flex;
+    justify-content: space-between;
+    max-width: 450px;
+    margin-left: 1.5rem;
+}
+
+.header-table ul li{
+    list-style: none;
+    color: rgb(47, 47, 47);
+    padding: 0.3rem 0;
+}
+
+.calc-f h1{
+    padding: 1rem 0;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form input{
+    max-width: 100%;
+    padding: 0.3rem;
+}
+
+.form input:focus{
+    border: 0.2rem solid rgb(192, 127, 252);
+}
+
+.form label:not(:first-child){
+    margin-top: 1rem;
+}
+
+.form button{
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+    background-color: rgb(19, 192, 240);
+    color: #ffff;
+    border: 0;
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+.text{
+    text-align: center;
+}
+
+.paragrafo-resultado{
+    background-color: rgb(27, 235, 65);
+    border-radius: 2px;
+    padding: 0.1rem;
+}
+
+.bad{
+    background-color: rgb(242, 86, 86);
+}
