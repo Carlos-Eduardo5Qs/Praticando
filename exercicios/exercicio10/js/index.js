@@ -22,6 +22,8 @@ form.addEventListener('submit', function (event) {
     if (!altura) {
         setResultado('Altura invalida', false);
     }
+
+    console.log(peso, altura);
 });
 
 function getNivelImc(imc) {
