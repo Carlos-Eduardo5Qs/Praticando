@@ -91,7 +91,17 @@
 
 // paragrafo.innerHTML = `${diaDaSemana}, ${dia} de ${mes} de ${ano} exatamente às ${hora} horas, ${minutos} minutos e ${segundos} segundos.`;
 
-const p = document.querySelector('.paragrafo');
-const date = new Date();
-p.innerHTML += date.toLocaleDateString('pt-BR', {dateStyle:'full'});
-p.innerHTML += date.toLocaleTimeString('pt-BR', {timeStyle:'short'});
+const p = document.querySelector('.container p');
+const options = {
+    weekday: 'long',
+    day: 'numeric',
+    month: 'long',
+    year: 'numeric',
+    hour:'numeric',
+    minute:'numeric',
+    second:'numeric',
+};
+
+p.innerHTML = new Date().toLocaleDateString('pt-BR', options);
+
+
