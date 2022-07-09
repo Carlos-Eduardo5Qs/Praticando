@@ -1,0 +1,38 @@
+:root {
+    --blue-light: rgb(7, 148, 243);
+    --white-color: #ffff;
+    --black-color: rgba(31, 30, 30, 0.904);
+    --purple-color: #6b3b96;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 30px;
+}
+
+.center {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container-father {
+    text-align: center;
+}
+
+.container-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 3rem;
+    background-color: var(--blue-light);
+    color: var(--white-color);
+    margin-top: 2%;
+    max-width: 1200px;
+    padding: 30px;
+    border-radius: 10px;
+}
