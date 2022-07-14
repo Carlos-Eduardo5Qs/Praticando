@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 2.4rem;
+    background: rgb(64, 64, 255);
+}
+
+.container {
+    min-height: 100vh;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.content {
+    background: white;
+    color: black;
+    max-width: 60vw;
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 10px
+}
