@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+
+html {
+    font-size: 71.5%;
+}
+
+body {
+    font-size: 3rem;
+    background-color: rgba(241, 223, 57, 0.849);
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 80vh;
+    min-height: 70vh;
+    text-align: center;
+    background-color: white;
+    margin-top: 7vh;
+    padding: 5rem;
+    border-radius: 100%;
+}
+
+.container h1 {
+    font-size: 4rem;
+    padding-top: 6.5rem;
+    padding-bottom: 7rem;
+}
+
+.relogio {
+    font-size: 10rem;
+    padding-bottom: 7rem;
+}
+
+.buttons button {
+    font-size: 2.5rem;
+    padding: 1rem 4rem;
+    margin: 0 1.5rem;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(136, 24, 240);
+    color: whitesmoke;
+}
+
+.container2 {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.data-hora {
+    display: flex;
+    gap: 1.5rem;
+}
