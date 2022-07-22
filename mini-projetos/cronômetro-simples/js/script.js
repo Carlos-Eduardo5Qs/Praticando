@@ -28,6 +28,7 @@ setInterval(function () {
 
 iniciar.addEventListener('click', function () {
     clearTimeout(timer);
+    relogio.classList.remove('active');
 
     function formatoHora(segundos) {
         const hora = new Date(segundos * 1000);
@@ -47,10 +48,13 @@ iniciar.addEventListener('click', function () {
 
 pausar.addEventListener('click', function () {
     clearTimeout(timer);
+
+    relogio.classList.add('active');
 });
 
 zerar.addEventListener('click', function () {
     clearTimeout(timer);
+    relogio.classList.remove('active');
     relogio.innerHTML = '00:00:00';
     segundos = 0;
 });

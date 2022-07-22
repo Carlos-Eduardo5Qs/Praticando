@@ -57,3 +57,7 @@ body {
     display: flex;
     gap: 1.5rem;
 }
+
+.active {
+    color: red;
+}
