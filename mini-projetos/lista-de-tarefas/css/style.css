@@ -1,0 +1,58 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: inherit;
+}
+
+html {
+    font-size: 71.2%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 20px;
+}
+
+.container h1 {
+    padding-bottom: 3rem;
+}
+
+.container input {
+    width: 600px;
+    padding: 0.8rem;
+    font-size: 2rem;
+    border-radius: 20px;
+}
+
+.container button {
+    padding: 0.9rem;
+    font-size: 2rem;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(25, 137, 235);
+    color: white;
+    border-radius: 20px;
+    
+}
+
+.container ul {
+    text-align: center;
+    list-style: none;
+    padding: 3rem;
+    max-height: 60vh;
+    max-width: 700px;
+    margin: 3rem auto;
+    overflow: auto;
+}
+
+.container li {
+    padding: 1rem;
+}
+
+
+
+
